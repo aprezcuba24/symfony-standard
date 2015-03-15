@@ -1,18 +1,11 @@
 {
-    "name": "culabs/framework-standard-edition",
+    "name": "symfony/framework-standard-edition",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution for culabs",
+    "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
         "psr-0": { "": "src/", "SymfonyStandard": "app/" }
     },
-    "authors": [
-        {
-            "name": "Renier Ricardo Figueredo",
-            "email": "aprezcuba24@gmail.com",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.6.*",
