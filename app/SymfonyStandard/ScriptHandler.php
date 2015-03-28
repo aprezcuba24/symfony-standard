@@ -62,7 +62,7 @@ class ScriptHandler
     public static function updateParameters(Event $event)
     {
         $options = self::getOptions($event);
-        $filename = $options['symfony-app-dir'].'/config/parameters.yml';
+        $filename = $options['symfony-app-dir'].'/config/parameters.yml.dist';
 
         if (!is_writable($filename)) {
             if ($event->getIO()->isVerbose()) {
