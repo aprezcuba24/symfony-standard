@@ -21,7 +21,7 @@ framework:
     validation:      { enable_annotations: true }
     #serializer:      { enable_annotations: true }
     templating:
-        engines: ['twig']
+        engines: ['twig', 'php'] #TODO: Puse php para evitar el error de KnpPaginator, despues quitar
         #assets_version: SomeVersionScheme
     default_locale:  "%locale%"
     trusted_hosts:   ~
@@ -36,9 +36,8 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
-    form:
-        resources:
-          - bootstrap_3_horizontal_layout.html.twig
+    form_themes:
+        - bootstrap_3_horizontal_layout.html.twig
 
 # Assetic Configuration
 assetic:

@@ -3,11 +3,11 @@ app:
     type:     annotation
 
 fos_user_security_login:
-    pattern:  /login
+    path:  /login
     defaults: { _controller: FOSUserBundle:Security:login }
 
 fos_user_security_check:
-    pattern:  /login_check
+    path:  /login_check
 
 fos_user_security_logout:
-    pattern:  /logout
+    path:  /logout
