@@ -1,0 +1,6 @@
+parameters:
+  menu.backend:
+    items:
+      dashboard:
+        route: admin_dashboard
+        icon:  fa-home

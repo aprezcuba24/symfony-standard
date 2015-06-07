@@ -4,9 +4,9 @@
 parameters:
     database_host:     127.0.0.1
     database_port:     ~
-    database_name:     symfony
+    database_name:     project_db
     database_user:     root
-    database_password: ~
+    database_password: root
     # You should uncomment this if you want use pdo_sqlite
     # database_path: "%kernel.root_dir%/data.db3"
 
@@ -15,5 +15,11 @@ parameters:
     mailer_user:       ~
     mailer_password:   ~
 
+    locale:            es
+
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    assetic_node_path: ~
+    assetic_uglifycss_path: /usr/local/bin/uglifycss
+    assetic_uglifyjs2_path: /usr/local/bin/uglifyjs
