@@ -19,7 +19,7 @@
         "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
 
-        "culabs/admin-bundle": "2.6.*@dev",
+        "culabs/admin-bundle": "2.7.*@dev",
         "friendsofsymfony/user-bundle": "2.0.*@dev"
     },
     "require-dev": {
