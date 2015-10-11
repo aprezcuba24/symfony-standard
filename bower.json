@@ -1,0 +1,19 @@
+{
+  "name": "symfony-standard",
+  "version": "2.7.0",
+  "homepage": "https://github.com/aprezcuba24/symfony-standard",
+  "authors": [
+    "Renier Ricardo Figueredo <aprezcuba24@gmail.com>"
+  ],
+  "description": "Symfony framework standar",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "symfony"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "https://github.com/jquery/jquery/archive/2.1.4.zip",
+    "bootstrap-sass": "https://github.com/twbs/bootstrap-sass/archive/v3.3.5.zip"
+  }
+}

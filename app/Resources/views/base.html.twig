@@ -3,11 +3,23 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        {% block stylesheets %}
+            {% if app.environment == 'dev' %}
+                <link href="{{ asset('assets/compile/app.css') }}" rel="stylesheet">
+            {% else %}
+                <link href="{{ asset('assets/compile-min/app.css') }}" rel="stylesheet">
+            {% endif %}
+        {% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
         {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        {% block javascripts %}
+            {% if app.environment == 'dev' %}
+                <script src="{{ asset('assets/compile/all.js') }}" type="text/javascript"></script>
+            {% else %}
+                <script src="{{ asset('assets/compile-min/all.js') }}" type="text/javascript"></script>
+            {% endif %}
+        {% endblock %}
     </body>
 </html>

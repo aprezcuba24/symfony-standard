@@ -19,7 +19,3 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
-
-    assetic_node_path: ~
-    assetic_uglifycss_path: /usr/local/bin/uglifycss
-    assetic_uglifyjs2_path: /usr/local/bin/uglifyjs
