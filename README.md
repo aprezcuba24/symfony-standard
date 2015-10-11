@@ -53,17 +53,20 @@ It comes pre-configured with the following bundles:
   * [**SensioGeneratorBundle**][13] (in dev/test env) - Adds code generation
     capabilities
 
+  * **DebugBundle** (in dev/test env) - Adds Debug and VarDumper component
+    integration
+
 All libraries and bundles included in the Symfony Standard Edition are
 released under the MIT or BSD license.
 
 Enjoy!
 
-[1]:  http://symfony.com/doc/2.7/book/installation.html
-[6]:  http://symfony.com/doc/2.7/bundles/SensioFrameworkExtraBundle/index.html
-[7]:  http://symfony.com/doc/2.7/book/doctrine.html
-[8]:  http://symfony.com/doc/2.7/book/templating.html
-[9]:  http://symfony.com/doc/2.7/book/security.html
-[10]: http://symfony.com/doc/2.7/cookbook/email.html
-[11]: http://symfony.com/doc/2.7/cookbook/logging/monolog.html
-[12]: http://symfony.com/doc/2.7/cookbook/assetic/asset_management.html
-[13]: http://symfony.com/doc/2.7/bundles/SensioGeneratorBundle/index.html
+[1]:  https://symfony.com/doc/2.7/book/installation.html
+[6]:  https://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/index.html
+[7]:  https://symfony.com/doc/2.7/book/doctrine.html
+[8]:  https://symfony.com/doc/2.7/book/templating.html
+[9]:  https://symfony.com/doc/2.7/book/security.html
+[10]: https://symfony.com/doc/2.7/cookbook/email.html
+[11]: https://symfony.com/doc/2.7/cookbook/logging/monolog.html
+[12]: https://symfony.com/doc/2.7/cookbook/assetic/asset_management.html
+[13]: https://symfony.com/doc/2.7/bundles/SensioGeneratorBundle/index.html

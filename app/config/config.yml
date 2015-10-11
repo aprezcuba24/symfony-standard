@@ -41,17 +41,12 @@ twig:
 
 # Assetic Configuration
 assetic:
-    node:           %assetic_node_path%
     debug:          "%kernel.debug%"
     use_controller: true
     write_to:       %kernel.root_dir%/../web/assets/cache
     bundles:        [ ]
     filters:
         cssrewrite: ~
-        uglifycss:
-            bin: %assetic_uglifycss_path%
-        uglifyjs2:
-            bin: %assetic_uglifyjs2_path%
 
 # Doctrine Configuration
 doctrine:
