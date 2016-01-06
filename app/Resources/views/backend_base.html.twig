@@ -1,0 +1,9 @@
+{% extends 'CULabsAdminBundle:Layout:base.html.twig' %}
+
+{% block title %}CULabs Admin{% endblock %}
+
+{% block title_app_url(path('admin_dashboard')) %}
+
+{% block user_name(app.user) %}
+
+{% block url_logout(path('fos_user_security_logout')) %}

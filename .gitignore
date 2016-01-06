@@ -10,3 +10,7 @@
 /vendor/
 /bin/
 /composer.phar
+/src/DataFixtures/ORM/images
+/web/assets/cache
+/node_modules
+/web/components
