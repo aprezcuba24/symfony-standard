@@ -32,7 +32,8 @@
 
         "fzaninotto/faker":                  "1.2.*",
         "phpspec/phpspec":                   "2.0.*@dev",
-        "sensio/generator-bundle":           "~2.3"
+        "sensio/generator-bundle":           "~2.3",
+        "symfony/phpunit-bridge":            "~2.7"
     },
     "scripts": {
         "post-install-cmd": [
